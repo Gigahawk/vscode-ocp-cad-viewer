@@ -39,6 +39,7 @@ dependencies = [
     "pyperclip==1.9.0",
     "questionary==2.1.1",
     "pillow>=12.1.0, <13.0",
+    "cadquery-ocp>=7.9.3.1",
 ]
 
 [project.urls]
@@ -54,7 +55,7 @@ include-package-data = false
 ocp_vscode = ["templates/*.html", "static/css/*.css", "static/js/*.js"]
 
 [project.optional-dependencies]
-dev = ["questionary~=1.10.0", "bump-my-version", "ruff", "twine"]
+dev = ["questionary~=2.1.1", "bump-my-version", "ruff", "twine"]
 
 [tool.ruff]
 line-length = 88
